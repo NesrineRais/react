@@ -12,7 +12,7 @@ class StateCompo extends React.Component{
         console.log("label " + props.label);
         this.state = {nom : ''};
     }
-    // handleChange(e){//le but qund on ecrit dans le but je veux passer dans cette fonction
+    // handleChange(e){//le but qund on ecrit dans l iput but je veux passer dans cette fonction
     //     console.log("Je passe ici");
     //     this.setState({nom : "le new"});
     //     // this.handleChange = this.handleChange.bind(this);
