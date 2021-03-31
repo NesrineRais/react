@@ -9,7 +9,7 @@ import React,{Component} from 'react';
 class StateCompo extends React.Component{
     constructor(props){
         super(props);
-        console.log("label " + props.label);
+        // console.log("label " + props.label);
         this.state = {nom : ''};
     }
     // handleChange(e){//le but qund on ecrit dans l iput but je veux passer dans cette fonction

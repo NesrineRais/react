@@ -3,6 +3,7 @@ import './App.css';
 import {PureCompo,PureCompoProps} from './components/PureCompo';
 //importer les 2 composants
 import StateCompo from './components/StateCompo';
+import {CompoCycleVie} from './components/CompoCycleVie'
 class App extends Component {
  constructor(props){
    super(props);
@@ -29,6 +30,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+        <CompoCycleVie />
          {mesLabel.map((libelle)=>
           <StateCompo key={libelle} label={libelle} onInputChange={this.onInputChange}/>
         )}{/** boucler sur les composant boucle for c'est map*/}
